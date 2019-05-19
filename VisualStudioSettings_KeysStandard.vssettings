@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSettings>
+   <ApplicationIdentity version="16.0" />
+   <Category name="Environment_Group" RegisteredName="Environment_Group">
+      <Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+         <Version>16.0.0.0</Version>
+         <KeyboardShortcuts>
+            <ScopeDefinitions>
+               <Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}" />
+               <Scope Name="Global" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}" />
+            </ScopeDefinitions>
+            <UserShortcuts>
+                <Shortcut Command="Debug.Start" Scope="Global">F5</Shortcut>
+                <Shortcut Command="Debug.StepInto" Scope="Global">F11</Shortcut>
+                <Shortcut Command="Debug.StepOver" Scope="Global">F10</Shortcut>
+                <Shortcut Command="Debug.ToggleBreakpoint" Scope="Global">F9</Shortcut>
+                <Shortcut Command="Edit.CompleteWord" Scope="Text Editor">Ctrl+Space</Shortcut>
+                <Shortcut Command="Edit.Copy" Scope="Global">Ctrl+C</Shortcut>
+                <Shortcut Command="Edit.Cut" Scope="Global">Ctrl+X</Shortcut>
+                <Shortcut Command="Edit.Find" Scope="Global">Ctrl+F</Shortcut>
+                <Shortcut Command="Edit.FindinFiles" Scope="Global">Ctrl+Shift+F</Shortcut>
+                <Shortcut Command="Edit.FindNext" Scope="Global">F3</Shortcut>
+                <Shortcut Command="Edit.GotoBrace" Scope="Text Editor">Ctrl+]</Shortcut>
+                <Shortcut Command="Edit.GotoBraceExtend" Scope="Text Editor">Ctrl+Shift+]</Shortcut>
+                <Shortcut Command="Edit.Paste" Scope="Global">Ctrl+V</Shortcut>
+                <Shortcut Command="Edit.Redo" Scope="Global">Ctrl+Shift+Z</Shortcut>
+                <Shortcut Command="Edit.SelectAll" Scope="Global">Ctrl+A</Shortcut>
+                <Shortcut Command="Edit.Undo" Scope="Global">Ctrl+Z</Shortcut>
+                <Shortcut Command="File.SaveAll" Scope="Global">Ctrl+Shift+S</Shortcut>
+                <Shortcut Command="File.SaveSelectedItems" Scope="Global">Ctrl+S</Shortcut>
+                <Shortcut Command="Project.AddNewItem" Scope="Global">Ctrl+Shift+A</Shortcut>
+                <Shortcut Command="ReSharper.ReSharper_Rename" Scope="Text Editor">F2</Shortcut>
+                <Shortcut Command="View.PropertiesWindow" Scope="Global">F4</Shortcut>
+                <Shortcut Command="View.ToggleDesigner" Scope="Global">F7</Shortcut>
+            </UserShortcuts>
+         </KeyboardShortcuts>
+      </Category>
+   </Category>
+</UserSettings>

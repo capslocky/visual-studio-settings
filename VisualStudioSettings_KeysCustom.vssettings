@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSettings>
+   <ApplicationIdentity version="16.0" />
+   <Category name="Environment_Group" RegisteredName="Environment_Group">
+      <Category name="Environment_KeyBindings" Category="{F09035F1-80D2-4312-8EC4-4D354A4BCB4C}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_KeyBindings" PackageName="Visual Studio Environment Package">
+        <Version>16.0.0.0</Version>
+        <KeyboardShortcuts>
+        <ScopeDefinitions>
+          <Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}" />
+          <Scope Name="Global" ID="{5EFC7975-14BC-11CF-9B2B-00AA00573819}" />
+        </ScopeDefinitions>
+          <UserShortcuts>
+            <Shortcut Command="Debug.CallStack" Scope="Text Editor">Ctrl+Shift+D</Shortcut>
+            <Shortcut Command="Debug.RunToCursor" Scope="Text Editor">Ctrl+Shift+R</Shortcut>
+            <Shortcut Command="Debug.QuickWatch" Scope="Text Editor">Ctrl+Shift+Q</Shortcut>
+            <Shortcut Command="Edit.BreakLine" Scope="Text Editor">Ctrl+N</Shortcut>
+            <Shortcut Command="Edit.CharLeft" Scope="Text Editor">Ctrl+J</Shortcut>
+            <Shortcut Command="Edit.CharLeftExtend" Scope="Text Editor">Ctrl+Shift+J</Shortcut>
+            <Shortcut Command="Edit.CharRight" Scope="Text Editor">Ctrl+L</Shortcut>
+            <Shortcut Command="Edit.CharRightExtend" Scope="Text Editor">Ctrl+Shift+L</Shortcut>
+            <Shortcut Command="Edit.DecreaseLineIndent" Scope="Text Editor">Ctrl+9</Shortcut>
+            <Shortcut Command="Edit.Delete" Scope="Text Editor">Ctrl+R</Shortcut>
+            <Shortcut Command="Edit.DeleteBackwards" Scope="Text Editor">Ctrl+E</Shortcut>
+            <Shortcut Command="Edit.IncreaseLineIndent" Scope="Text Editor">Ctrl+0</Shortcut>
+            <Shortcut Command="Edit.LineDelete" Scope="Text Editor">Ctrl+T</Shortcut>
+            <Shortcut Command="Edit.LineDown" Scope="Text Editor">Ctrl+K</Shortcut>
+            <Shortcut Command="Edit.LineDownExtend" Scope="Text Editor">Ctrl+Shift+K</Shortcut>
+            <Shortcut Command="Edit.LineEnd" Scope="Text Editor">Ctrl+O</Shortcut>
+            <Shortcut Command="Edit.LineEndExtend" Scope="Text Editor">Ctrl+Shift+O</Shortcut>
+            <Shortcut Command="Edit.LineStart" Scope="Text Editor">Ctrl+U</Shortcut>
+            <Shortcut Command="Edit.LineStartExtend" Scope="Text Editor">Ctrl+Shift+U</Shortcut>
+            <Shortcut Command="Edit.LineUp" Scope="Text Editor">Ctrl+I</Shortcut>
+            <Shortcut Command="Edit.LineUpExtend" Scope="Text Editor">Ctrl+Shift+I</Shortcut>
+            <Shortcut Command="Edit.PageDown" Scope="Text Editor">Ctrl+P</Shortcut>
+            <Shortcut Command="Edit.PageUp" Scope="Text Editor">Ctrl+Y</Shortcut>
+            <Shortcut Command="Edit.SelectionCancel" Scope="Text Editor">Ctrl+M</Shortcut>
+            <Shortcut Command="Edit.WordNext" Scope="Text Editor">Ctrl+;</Shortcut>
+            <Shortcut Command="Edit.WordNextExtend" Scope="Text Editor">Ctrl+Shift+;</Shortcut>
+            <Shortcut Command="Edit.WordPrevious" Scope="Text Editor">Ctrl+H</Shortcut>
+            <Shortcut Command="Edit.WordPreviousExtend" Scope="Text Editor">Ctrl+Shift+H</Shortcut>
+            <Shortcut Command="OtherContextMenus.HTMLContext.WrapWithdiv" Scope="HTML Editor">Ctrl+Shift+M</Shortcut>
+            <Shortcut Command="ReSharper_AltEnter" Scope="Text Editor">Ctrl+Enter</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_DuplicateText" Scope="Text Editor">Ctrl+D</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_ExtendSelection" Scope="Text Editor">Ctrl+W</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_FindUsages" Scope="Text Editor">F6</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_GotoImplementations" Scope="Text Editor">F8</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_GotoRecentEdits" Scope="Text Editor">Ctrl+Down Arrow</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_GotoType" Scope="Global">Ctrl+G</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_LineComment" Scope="Text Editor">Ctrl+Q</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_NavigateBackward" Scope="Text Editor">Ctrl+,</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_NavigateForward" Scope="Text Editor">Ctrl+.</Shortcut>
+            <Shortcut Command="ReSharper.ReSharper_ShrinkSelection" Scope="Text Editor">Ctrl+Shift+W</Shortcut>
+            <Shortcut Command="Tools.ExternalCommand2" Scope="Global">Ctrl+Shift+G</Shortcut>
+            <Shortcut Command="View.FindResults1" Scope="Text Editor">Ctrl+Shift+C</Shortcut>
+            <Shortcut Command="View.FindResults2" Scope="Text Editor">Ctrl+Shift+V</Shortcut>
+          </UserShortcuts>
+         </KeyboardShortcuts>
+      </Category>
+   </Category>
+   <Category name="Environment_ExternalTools" Category="{E8FAE9E8-FBA2-4474-B134-AB0FFCFB291D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_ExternalTools" PackageName="Visual Studio Environment Package">
+     <ExternalTools>
+        <UserCreatedTool>
+           <Arguments />
+           <CloseOnExit>false</CloseOnExit>
+           <Command>C:\Program Files\Git\git-bash.exe</Command>
+           <Index>1</Index>
+           <InitialDirectory>$(SolutionDir)</InitialDirectory>
+           <IsGUIapp>true</IsGUIapp>
+           <NameID>0</NameID>
+           <Package>{00000000-0000-0000-0000-000000000000}</Package>
+           <PromptForArguments>false</PromptForArguments>
+           <SaveAllDocs>true</SaveAllDocs>
+           <Title>git-bash</Title>
+           <Unicode>false</Unicode>
+           <UseOutputWindow>false</UseOutputWindow>
+           <UseTaskList>false</UseTaskList>
+        </UserCreatedTool>
+     </ExternalTools>
+  </Category>
+</UserSettings>

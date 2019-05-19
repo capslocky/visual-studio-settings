@@ -1,0 +1,44 @@
+body{
+    background-color: #fafafa;
+}
+
+.border{
+	border: 1px solid black;
+	margin: 20px;
+	padding: 20px;
+}
+
+.file-input{
+   width: 110px;
+}
+
+.component-input{
+   width: 80px;
+}
+
+.flex-column-end{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+input:invalid{
+  color:red;
+}
+
+/*'Customized widget size' from official documentation*/
+.colorpicker-2x .colorpicker-saturation {
+    width: 200px;
+    height: 200px;
+}
+
+.colorpicker-2x .colorpicker-hue,
+.colorpicker-2x .colorpicker-alpha {
+    width: 30px;
+    height: 200px;
+}
+
+.colorpicker-2x .colorpicker-color,
+.colorpicker-2x .colorpicker-color div {
+    height: 30px;
+}

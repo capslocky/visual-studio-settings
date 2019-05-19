@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSettings>
+   <ApplicationIdentity version="16.0" />
+    <ToolsOptions>
+      <ToolsOptionsCategory name="Environment" RegisteredName="Environment">
+         <ToolsOptionsSubCategory name="ProductUpdates" RegisteredName="ProductUpdates" PackageName="VS Setup Composition">
+            <PropertyValue name="IsBackgroundDownloadEnabled">false</PropertyValue>
+         </ToolsOptionsSubCategory>
+         <ToolsOptionsSubCategory name="ProjectsAndSolution" RegisteredName="ProjectsAndSolution" PackageName="Visual Studio Environment Package">
+            <PropertyValue name="ProjectsLocation">D:\VisualStudioProjects</PropertyValue>
+            <PropertyValue name="TrackFileSelectionInExplorer">True</PropertyValue>
+         </ToolsOptionsSubCategory>
+         <ToolsOptionsSubCategory name="CSharp" RegisteredName="CSharp" PackageName="Text Management Package">
+            <PropertyValue name="TabSize">4</PropertyValue>
+            <PropertyValue name="IndentSize">4</PropertyValue>
+         </ToolsOptionsSubCategory>
+          <ToolsOptionsSubCategory name="TypeScript" RegisteredName="TypeScript" PackageName="Text Management Package">
+            <PropertyValue name="TabSize">4</PropertyValue>
+            <PropertyValue name="IndentSize">4</PropertyValue>
+         </ToolsOptionsSubCategory>
+      </ToolsOptionsCategory>
+    </ToolsOptions>
+    <Category name="Environment_TabsAndWindows" Category="{CCF27946-63D9-4806-91BA-EEBF5F3DFA4A}" Package="{5E56B3DB-7964-4588-8D49-D3523AB7BDB9}" RegisteredName="Environment_TabsAndWindows" PackageName="Environment Package Window Management">
+        <PropertyValue name="ShowPinnedTabsInSeparateRow">True</PropertyValue>
+     </Category>
+    <Category name="Projects_Web Package Management_Package Restore" Category="{03D27F49-12E4-4282-94F3-03A8AEF90B8F}" Package="{cb03d63d-47be-437d-b26b-1ad8aa7ff394}" RegisteredName="Projects_Web Package Management_Package Restore" PackageName="PackageManagementPackage">
+      <PropertyValue name="NpmRestoreOnOpen">False</PropertyValue>
+      <PropertyValue name="NpmRestoreOnSave">False</PropertyValue>
+   </Category>
+   <Category name="WebProjects" Category="{C78AFEEB-A722-4cf3-AD3F-8694126C2145}" Package="{39c9c826-8ef8-4079-8c95-428f5b1c323f}" RegisteredName="WebProjects" PackageName="Visual Web Developer Project System Package">
+      <PropertyValue name="DisableLocalApplicationInsights">false</PropertyValue>
+      <PropertyValue name="EnableDebugTargetsObserver">true</PropertyValue>
+   </Category>
+</UserSettings>

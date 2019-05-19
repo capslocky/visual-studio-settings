@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserSettings>
+   <ApplicationIdentity version="16.0" />
+   <Category name="Environment_Group" RegisteredName="Environment_Group">
+      <Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
+         <PropertyValue name="Version">2</PropertyValue>
+         <FontsAndColors Version="2.0">
+            <Categories>
+               <Category GUID="{A27B4E24-A735-4D1D-B8E7-9716E1E3D8E0}" FontName="Consolas" FontSize="15" CharSet="204" FontIsDefault="No">
+                  <Items>
+                    <!-- Black. -->
+                    <Item Name="Plain Text" Foreground="0x00000000" Background="0x00FAFAFA" BoldFont="No" />
+                    <Item Name="ReSharper Namespace Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Mutable Local Variable Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Property Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper TypeScript Constrained Element Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Local Variable Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Block-Local Variable Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Block-Local Constant Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Unknown Property Identifier" Foreground="0x00000000" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Black + Bold. -->
+                    <Item Name="Literal" Foreground="0x02000000" Background="0x02000000" BoldFont="Yes" />
+                    <Item Name="Number" Foreground="0x02000000" Background="0x02000000" BoldFont="Yes" />
+
+                    <!-- Brown. -->
+                    <Item Name="String" Foreground="0x001515A3" Background="0x02000000" BoldFont="No" />
+                    <Item Name="String(C# @ Verbatim)" Foreground="0x001515A3" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Brown + Bold. -->
+                    <Item Name="ReSharper Constant Identifier" Foreground="0x00004080" Background="0x02000000" BoldFont="Yes" />
+
+                    <!-- Red Violet. -->
+                    <Item Name="ReSharper Method Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Extension Method Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Operator Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Function Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Local Function Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Local Function Identifier" Foreground="0x008812C7" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Orange Dark. -->
+                    <Item Name="ReSharper Event Identifier" Foreground="0x001256C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Field Identifier" Foreground="0x001256C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Property Identifier" Foreground="0x001256C7" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper JavaScript Parameter Identifier" Foreground="0x001256C7" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Blue Keyword. -->
+                    <Item Name="ReSharper TypeScript Variable Declaration Identifier" Foreground="0x00FF0000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="Keyword" Foreground="0x00FF0000" Background="0x02000000" BoldFont="No" />
+                    <Item Name="keyword - control" Foreground="0x00FF0000" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Blue Chill. In 2015 it was 0x00AC8500. -->
+                    <Item Name="ReSharper Class Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Static Class Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Struct Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Enum Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Interface Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Delegate Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper Type Parameter Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper TypeScript Class Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper TypeScript Enum Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+                    <Item Name="ReSharper TypeScript Interface Identifier" Foreground="0x0088920E" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Blue Chill + Bold.-->
+                    <Item Name="ReSharper Format String Item" Foreground="0x0088920E" Background="0x02000000" BoldFont="Yes" />
+
+                    <!-- Red. Comments with 'todo' and 'bug'. NotImplementedException. -->
+                    <Item Name="ReSharper Todo Item" Foreground="0x000000F5" Background="0x02000000" BoldFont="Yes" />
+                    <Item Name="ReSharper Todo Item Marker on Error Stripe" Foreground="0x000000F5" Background="0x02000000" BoldFont="No" />
+
+                    <!-- Violet. -->
+                    <Item Name="ReSharper TypeScript Module Identifier" Foreground="0x00E605AB" Background="0x02000000" BoldFont="No" />
+
+
+
+                    <!-- Orange Light 0x000088C7-->
+                    <!-- Dark Blue 0x00CF0000-->
+
+                    <!-- ReSharper Blue 0x00D98D00-->
+                    <!-- Resharper Light Blue 0x00FF9E00 -->
+                    <!-- Resharper Dark Violet 0x00800080 -->
+                    <!-- Resharper Hot Violet 0x00FF00C0 -->
+                    <!-- Resharper Mild Red 0x007B34ED -->
+
+                  </Items>
+               </Category>
+            </Categories>
+         </FontsAndColors>
+      </Category>
+   </Category>
+</UserSettings>

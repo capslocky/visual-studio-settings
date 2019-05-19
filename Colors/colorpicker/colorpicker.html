@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Color picker</title>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-debug.js"></script>
+	<script src="bootstrap-colorpicker.js"></script>
+	<script src="colorpicker.js"></script>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bootstrap-colorpicker.min.css" rel="stylesheet">
+	<link href="colorpicker.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container" data-bind="foreach: rows">
+		<div class="border">	
+			<div class="row">
+				<div class="col-md-3">
+					<div data-bind="attr: {id: 'colorPicker_' + $index()}" class="input-group colorpicker-component">
+						<input data-bind="textInput : picker" type="text" class="form-control" />
+						<span class="input-group-addon"><i></i></span>
+					</div>
+				</div>
+				<div class="col-md-2 flex-column-end">
+					<label>File
+						<input data-bind="textInput: file" class="file-input" type="text" pattern="^0x[0-9A-F]{8}$">
+						<div data-bind="style: {color: valueHtml}">			
+							<h4>Small sample text</h4>			
+							<h4 data-bind="text: valueHtml"></h4>
+						</div>
+					</label>				
+				</div>
+				<div class="col-md-2 flex-column-end">
+					<label>Red
+						<input data-bind="textInput: red, valueUpdate = afterkeydown" class="component-input" type="text" pattern="^([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])$">			
+					</label>
+					<label>Green
+						<input data-bind="textInput: green, valueUpdate = afterkeydown" class="component-input"  type="text" pattern="^([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])$">				
+					</label>
+					<label>Blue
+						<input data-bind="textInput: blue, valueUpdate = afterkeydown" class="component-input" type="text" pattern="^([01]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])$">				
+					</label>
+				</div>
+				<div class="col-md-5">				
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-3">			
+				</div>
+				<div class="col-md-4" data-bind="style: {color: valueHtml}">			
+					<h1>Big sample text</h1>
+				</div>
+				<div class="col-md-5">			
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row border">
+			<div class="col-md-4">
+				<a href="https://farbelous.github.io/bootstrap-colorpicker/"  class="btn btn-primary" target="_blank">Open documentation</a>
+			</div>
+			<div class="col-md-3  flex-column-end">						
+				<button data-bind="click: addRow" class="btn btn-primary">Add row</button>		
+			</div>
+			<div class="col-md-5">			
+			</div>
+		</div>
+	</div>
+</body>
+</html>
